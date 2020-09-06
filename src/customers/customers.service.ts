@@ -61,7 +61,6 @@ export class CustomersService {
                 customer._id, 
                 customer
             )
-            console.log(updatedCustomer)
             return { id: customer._id };
         } catch {
             throw new InternalServerErrorException('Oops! Something went wrong.');

@@ -8,9 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     CustomersModule,
     // Add your mongodb database connection string here.
-    MongooseModule.forRoot(
-      'mongodb+srv://jatin:pikachu22@coda-fullstack-challeng.8pwvi.mongodb.net/test'
-    )
+    MongooseModule.forRoot('')
   ],
   controllers: [
     AppController
